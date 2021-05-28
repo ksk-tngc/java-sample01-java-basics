@@ -231,6 +231,20 @@ public class Main {
 
 		System.out.println(first.get());
 
+		// -----------------------------------------------------------------
+		// 値が80以上の要素数を取得する
+		// filter(), count()
+		// -----------------------------------------------------------------
+
+		System.out.println("----- 値が80以上の要素数を取得する -----");
+
+		int[] nums13 = { 10, 23, 55, 90, 100, 85, 80 };
+		long count = Arrays.stream(nums13)
+				.filter(num -> num >= 80)
+				.count();
+
+		System.out.println(count);
+
 	}
 
 }
