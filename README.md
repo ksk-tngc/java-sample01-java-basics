@@ -6,9 +6,9 @@ Javaの基本機能のサンプルコードです。
 
 # 構成
 
-`/src` 配下のパッケージに基本機能ごとのサンプルコードを格納しています。
+[`/src`](src/) 配下のパッケージに基本機能ごとのサンプルコードを格納しています。
 
-## `stream_api` パッケージ
+## [`stream_api`パッケージ](src/stream_api/)
 
 StreamAPIのサンプルコードです。
 
@@ -20,7 +20,7 @@ StreamAPIのサンプルコードです。
 - 終端処理
   - `forEach()`,`collect()`,`anyMatch()`,`sum()`,`max()`,`min()`,`findFirst()`,`count()`
 
-## `generics_and_enum` パッケージ
+## [`generics_and_enum`パッケージ](src/generics_and_enum/)
 
 ジェネリクスと列挙型を使用したサンプルクラス（金庫クラス（StrongBoxクラス））を定義しています。
 
@@ -32,11 +32,11 @@ StreamAPIのサンプルコードです。
 列挙型は `toString()` のオーバーライドと、独自のフィールド及びメソッド定義を行っています。  
 また、金庫クラスは JUnit でテストを行なっています（StringBoxTestクラス）。
 
-## `method_reference` パッケージ
+## [`method_reference`パッケージ](src/method_reference/)
 
 関数型インターフェースと関数オブジェクト（メソッド参照）のサンプルコードです。
 
-## `lambda_expression` パッケージ
+## [`lambda_expression`パッケージ](src/lambda_expression/)
 
 ラムダ式のサンプルコードです。
 
