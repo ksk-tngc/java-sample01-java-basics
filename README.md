@@ -46,3 +46,10 @@ StreamAPIのサンプルコードです。
 ## [`system_property`パッケージ](src/system_property/)
 
 JVMやOSの情報を保持するシステムプロパティのサンプルコードです。
+
+## [`locale`パッケージ](src/locale/)
+
+`Locale`クラスのサンプルコードです。
+
+ロケールの言語によって現在日時の表示内容を切り替えます。  
+本サンプルでは「JP-ja」と「US-en」を使用します。
