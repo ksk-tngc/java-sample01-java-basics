@@ -42,3 +42,7 @@ StreamAPIのサンプルコードです。
 
 このサンプルでは標準関数インターフェースの `IntPredicate` と `BiFunction` を使用し、関数を即時実装します。  
 匿名クラスでの記述例も載せてあります。
+
+## [`system_property`パッケージ](src/system_property/)
+
+JVMやOSの情報を保持するシステムプロパティのサンプルコードです。
