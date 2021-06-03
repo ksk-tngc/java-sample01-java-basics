@@ -1,4 +1,4 @@
-package system_property;
+package samples.system_property;
 
 import java.util.Properties;
 

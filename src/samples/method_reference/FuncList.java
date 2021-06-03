@@ -1,4 +1,4 @@
-package method_reference;
+package samples.method_reference;
 
 /**
  * 関数として扱うメソッドを持つクラス.

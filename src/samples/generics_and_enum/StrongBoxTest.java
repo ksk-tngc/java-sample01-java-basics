@@ -1,4 +1,4 @@
-package generics_and_enum;
+package samples.generics_and_enum;
 
 import static org.junit.Assert.*;
 

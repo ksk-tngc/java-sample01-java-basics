@@ -1,4 +1,4 @@
-package locale;
+package samples.locale;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

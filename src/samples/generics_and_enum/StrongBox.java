@@ -1,4 +1,4 @@
-package generics_and_enum;
+package samples.generics_and_enum;
 
 /**
  * 金庫を表すクラスです。

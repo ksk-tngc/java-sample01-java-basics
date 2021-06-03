@@ -1,4 +1,4 @@
-package method_reference;
+package samples.method_reference;
 
 import java.util.function.IntPredicate;
 

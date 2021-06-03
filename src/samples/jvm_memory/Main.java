@@ -1,4 +1,4 @@
-package jvm_memory;
+package samples.jvm_memory;
 
 /**
  * メインクラス.

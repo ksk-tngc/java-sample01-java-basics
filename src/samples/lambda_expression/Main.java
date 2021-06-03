@@ -1,4 +1,4 @@
-package lambda_expression;
+package samples.lambda_expression;
 
 import java.util.function.BiFunction;
 import java.util.function.IntPredicate;
