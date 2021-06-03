@@ -41,6 +41,9 @@ public class Main {
 		// USロケールの生成
 		Locale usLoc = new Locale("en", "US");
 
+		// デフォルトロケールをUSに設定
+		Locale.setDefault(usLoc);
+
 		// ロケールの情報を表示
 		printLocaleInfo(usLoc);
 
