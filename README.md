@@ -29,8 +29,8 @@ StreamAPIのサンプルコードです。
 - 金庫クラスは任意の型のインスタンスを1つ保持でき、格納するインスタンスの型は金庫クラスのインスタンス生成時に実型引数で指定します。
 - コンストラクタで「鍵の種類」（ダイヤル式・指紋認証など）を指定し、鍵の種類ごとに定められた必要試行回数に達するまで金庫に格納したインスタンスは取得不可とします。
 
-列挙型は `toString()` のオーバーライドと、独自のフィールド及びメソッド定義を行っています。  
-また、金庫クラスは JUnit でテストを行なっています（StringBoxTestクラス）。
+列挙型では `toString()` のオーバーライドと独自のフィールド及びメソッドの定義を行っています。  
+金庫クラスは JUnit でテストを行なっています（StringBoxTestクラス）。
 
 ## [`method_reference`](src/samples/method_reference/)
 
@@ -40,7 +40,7 @@ StreamAPIのサンプルコードです。
 
 ラムダ式のサンプルコードです。
 
-このサンプルでは標準関数インターフェースの `IntPredicate` と `BiFunction` を使用し、関数を即時実装します。  
+標準関数インターフェースの `IntPredicate` と `BiFunction` を使用し関数を即時実装します。  
 匿名クラスでの記述例も載せてあります。
 
 ## [`system_property`](src/samples/system_property/)
@@ -62,7 +62,7 @@ JVMの現在のメモリ状態を表示します。
 ## [`reflection`](src/samples/reflection/)
 
 リフレクションAPIのサンプルコードです。  
-`String` クラスの型情報と、全てのフィールド名・メソッド名を表示します。
+`String` クラスの型情報と、すべてのフィールド名・メソッド名を表示します。
 
 ## [`commons_lang`](src/samples/commons_lang/)
 
