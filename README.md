@@ -68,7 +68,7 @@ JVMの現在のメモリ状態を表示します。
 
 Javaの基本機能を強化する Apache Commons の [commons-lang](https://commons.apache.org/proper/commons-lang/) ライブラリを使用したサンプルコードです。
 
-`EqualsBuilder` で `Object#equals()` のオーバーライドを、
-`ToStringBuilder` で `Object#toString()` のオーバーライドを手軽に実装します。
+`EqualsBuilder` で `Object#equals()` のオーバーライドを、`ToStringBuilder` で `Object#toString()` のオーバーライドを手軽に実装します。
 
+ライブラリを使用しない典型的な実装サンプルも載せてあります。
 
