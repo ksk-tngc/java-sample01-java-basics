@@ -72,3 +72,7 @@ Javaの基本機能を強化する Apache Commons の [commons-lang](https://com
 
 ライブラリを使用しない典型的な実装サンプルも載せてあります。
 
+## [`logger`](src/samples/logger/)
+
+ロガーライブラリのサンプルコードです。  
+`Log4j2` 単体でのログ出力と、`SLF4J`（ログファサード） + `Logback` によるログ出力のサンプルコードです。
