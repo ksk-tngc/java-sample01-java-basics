@@ -76,3 +76,16 @@ Javaの基本機能を強化する Apache Commons の [commons-lang](https://com
 
 ロガーライブラリのサンプルコードです。  
 `Log4j2` 単体でのログ出力と、`SLF4J`（ログファサード） + `Logback` によるログ出力のサンプルコードです。
+
+## [`file_io`](src/samples/file_io/)
+
+ファイル入出力（`java.io`パッケージ）に関するサンプルコードです。
+
+読み込んだファイルをGZIP圧縮するプログラムを以下のAPIを使用して作成します。
+
+使用API:
+- `FileInputStream` -> バイナリファイル読み込み用ストリーム
+- `BufferedInputStream` -> パフォーマンス向上のためのバッファリングフィルタ
+- `FileOutputStream` -> バイナリファイル書き込み用ストリーム
+- `BufferedOutputStream` -> パフォーマンス向上のためのバッファリングフィルタ
+- `GZIPOutputStream` -> GZIP圧縮用ストリームフィルタ

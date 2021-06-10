@@ -24,6 +24,5 @@ hs_err_pid*
 
 # my adds
 .project
-.classpath
 bin/
 src/tmp/
