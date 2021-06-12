@@ -89,3 +89,10 @@ Javaの基本機能を強化する Apache Commons の [commons-lang](https://com
 - `FileOutputStream` -> バイナリファイル書き込み用ストリーム
 - `BufferedOutputStream` -> パフォーマンス向上のためのバッファリングフィルタ
 - `GZIPOutputStream` -> GZIP圧縮用ストリームフィルタ
+
+## [`property_file`](src/samples/property_file/)
+
+プロパティファイル（.properties）に関するサンプルコードです。
+
+`Properties`クラスでプロパティファイルを読み書きするサンプルと、  
+`ResourceBundle`クラスでプロパティファイルを読み込み、メッセージを多言語対応するサンプルです。
