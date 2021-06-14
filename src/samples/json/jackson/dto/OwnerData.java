@@ -3,7 +3,7 @@ package samples.json.jackson.dto;
 /**
  * 車の所有者の情報を表すDTOクラスです.
  *
- * <p>読み込むJSONの "owner" プロパティに対応するクラスです.
+ * <p>JSONの "owner" プロパティに対応するクラスです.
  */
 public class OwnerData {
 
