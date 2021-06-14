@@ -1,8 +1,8 @@
-package samples.json.jackson.read_json;
+package samples.json.jackson;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import samples.json.jackson.read_json.dto.JsonFileData;
+import samples.json.jackson.dto.JsonFileData;
 
 /**
  * JacksonでJSONファイルを読み込むサンプルコードです.<br>

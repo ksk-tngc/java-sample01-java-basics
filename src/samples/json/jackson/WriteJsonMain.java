@@ -1,4 +1,4 @@
-package samples.json.jackson.read_json;
+package samples.json.jackson;
 
 import java.io.File;
 import java.io.IOException;
@@ -6,9 +6,9 @@ import java.io.IOException;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import samples.json.jackson.read_json.dto.CarData;
-import samples.json.jackson.read_json.dto.JsonFileData;
-import samples.json.jackson.read_json.dto.OwnerData;
+import samples.json.jackson.dto.CarData;
+import samples.json.jackson.dto.JsonFileData;
+import samples.json.jackson.dto.OwnerData;
 
 /**
  * JacksonでJSONファイルを出力するサンプルコードです.<br>

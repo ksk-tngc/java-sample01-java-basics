@@ -1,4 +1,4 @@
-package samples.json.jackson.read_json.dto;
+package samples.json.jackson.dto;
 
 /**
  * JSONファイルのデータを保持するDTOクラスです.

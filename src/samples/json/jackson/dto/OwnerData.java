@@ -1,4 +1,4 @@
-package samples.json.jackson.read_json.dto;
+package samples.json.jackson.dto;
 
 /**
  * 車の所有者の情報を表すDTOクラスです.
