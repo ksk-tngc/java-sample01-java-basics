@@ -1,0 +1,11 @@
+{
+  "owner" : {
+    "name" : "山田太郎",
+    "age" : 30,
+    "car" : {
+      "maker" : "マツダ",
+      "name" : "MAZDA3",
+      "color" : "赤"
+    }
+  }
+}

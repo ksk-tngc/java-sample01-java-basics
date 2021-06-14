@@ -26,5 +26,8 @@
 	<classpathentry kind="lib" path="lib/slf4j/slf4j-api-1.7.30.jar"/>
 	<classpathentry kind="lib" path="lib/logback/logback-classic-1.2.3.jar"/>
 	<classpathentry kind="lib" path="lib/logback/logback-core-1.2.3.jar"/>
+	<classpathentry kind="lib" path="lib/jackson/jackson-annotations-2.12.3.jar"/>
+	<classpathentry kind="lib" path="lib/jackson/jackson-core-2.12.3.jar"/>
+	<classpathentry kind="lib" path="lib/jackson/jackson-databind-2.12.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

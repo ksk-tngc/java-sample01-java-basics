@@ -96,3 +96,10 @@ Javaの基本機能を強化する Apache Commons の [commons-lang](https://com
 
 `Properties`クラスでプロパティファイルを読み書きするサンプルと、  
 `ResourceBundle`クラスでプロパティファイルを読み込み、メッセージを多言語対応するサンプルです。
+
+## [`json`](src/samples/json/)
+
+`Jackson`を用いてJSONファイルを読み書きするサンプルコードです。
+
+Javaオブジェクト → JSON（シリアライズ）、及び  
+JSON → Javaオブジェクト（デシリアライズ）を行います。
