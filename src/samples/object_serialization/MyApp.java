@@ -10,6 +10,11 @@ import samples.object_serialization.dto.CarOwner;
 
 /**
  * メインクラスです.
+ *
+ * <p>オブジェクトの直列化に関するサンプルコードです.
+ *
+ * <p>オブジェクトをシリアライズしファイルに保存します.<br>
+ * また、シリアライズしたファイルをオブジェクトに復元（デシリアライズ）します.
  */
 public class MyApp {
 
