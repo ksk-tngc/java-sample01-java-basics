@@ -103,3 +103,10 @@ Javaの基本機能を強化する Apache Commons の [commons-lang](https://com
 
 Javaオブジェクト → JSON（シリアライズ）、及び  
 JSON → Javaオブジェクト（デシリアライズ）を行います。
+
+## [`object_serialization`](src/samples/object_serialization/)
+
+オブジェクトの直列化に関するサンプルコードです。
+
+オブジェクトをシリアライズしファイルに保存します。  
+また、シリアライズしたファイルをオブジェクトに復元（デシリアライズ）します。
