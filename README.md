@@ -2,7 +2,7 @@ my-java-basics
 
 # 概要
 
-Javaの基本機能や、標準/非標準APIを使用したサンプルコードです。
+Javaの基本機能や標準/非標準APIを使用したサンプルコードです。
 
 # 構成
 
@@ -56,12 +56,14 @@ JVMやOSの情報を保持するシステムプロパティのサンプルコー
 
 ## [`jvm_memory`](src/samples/jvm_memory/)
 
-`Runtime` クラスのサンプルコードです。  
+`Runtime` クラスのサンプルコードです。
+
 JVMの現在のメモリ状態を表示します。
 
 ## [`reflection`](src/samples/reflection/)
 
-リフレクションAPIのサンプルコードです。  
+リフレクションAPIのサンプルコードです。
+
 `String` クラスの型情報と、すべてのフィールド名・メソッド名を表示します。
 
 ## [`commons_lang`](src/samples/commons_lang/)
@@ -74,7 +76,8 @@ Javaの基本機能を強化する Apache Commons の [commons-lang](https://com
 
 ## [`logger`](src/samples/logger/)
 
-ロガーライブラリのサンプルコードです。  
+ロガーライブラリのサンプルコードです。
+
 `Log4j2` 単体でのログ出力と、`SLF4J`（ログファサード） + `Logback` によるログ出力のサンプルコードです。
 
 ## [`file_io`](src/samples/file_io/)
@@ -83,12 +86,12 @@ Javaの基本機能を強化する Apache Commons の [commons-lang](https://com
 
 読み込んだファイルをGZIP圧縮するプログラムを以下のAPIを使用して作成します。
 
-使用API:
-- `FileInputStream` -> バイナリファイル読み込み用ストリーム
-- `BufferedInputStream` -> パフォーマンス向上のためのバッファリングフィルタ
-- `FileOutputStream` -> バイナリファイル書き込み用ストリーム
-- `BufferedOutputStream` -> パフォーマンス向上のためのバッファリングフィルタ
-- `GZIPOutputStream` -> GZIP圧縮用ストリームフィルタ
+使用API：
+- `FileInputStream`（バイナリファイル読み込み用ストリーム）
+- `BufferedInputStream`（パフォーマンス向上のためのバッファリングフィルタ）
+- `FileOutputStream`（バイナリファイル書き込み用ストリーム）
+- `BufferedOutputStream`（パフォーマンス向上のためのバッファリングフィルタ）
+- `GZIPOutputStream`（GZIP圧縮用ストリームフィルタ）
 
 ## [`property_file`](src/samples/property_file/)
 
@@ -110,3 +113,14 @@ JSON → Javaオブジェクト（デシリアライズ）を行います。
 
 オブジェクトをシリアライズしファイルに保存します。  
 また、シリアライズしたファイルをオブジェクトに復元（デシリアライズ）します。
+
+## [`stream`](src/samples/stream/)
+
+ストリームに関するサンプルコードです。
+
+文字列（String）をバイトストリームや文字ストリームに変換します。
+
+使用API：
+- `ByteArrayInputStream`（`InputStream`の具象クラス。バイトストリーム）
+- `InputStreamReader`（`Reader`の具象クラス。バイトストリームと文字ストリームの橋渡し役）
+- `StringReader`（`Reader`の具象クラス。文字ストリーム）
