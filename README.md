@@ -124,3 +124,7 @@ JSON → Javaオブジェクト（デシリアライズ）を行います。
 - `ByteArrayInputStream`（`InputStream`の具象クラス。バイトストリーム）
 - `InputStreamReader`（`Reader`の具象クラス。バイトストリームと文字ストリームの橋渡し役）
 - `StringReader`（`Reader`の具象クラス。文字ストリーム）
+
+## [`url`](src/samples/url/)
+
+`URL`クラスを用いてWebサイトのHTMLを取得するサンプルコードです。
