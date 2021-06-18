@@ -137,4 +137,4 @@ JSON → Javaオブジェクト（デシリアライズ）を行います。
 WebAPIから取得したJSONは `Jackson` で処理します。
 
 実行結果：  
-<img src="https://user-images.githubusercontent.com/59589496/122574699-e3274d00-d08a-11eb-9d14-261bfacd0c9f.png" width="85%">
+<img src="https://user-images.githubusercontent.com/59589496/122574699-e3274d00-d08a-11eb-9d14-261bfacd0c9f.png" width="90%">
