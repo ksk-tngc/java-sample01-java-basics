@@ -128,3 +128,13 @@ JSON → Javaオブジェクト（デシリアライズ）を行います。
 ## [`url`](src/samples/url/)
 
 `URL`クラスを用いてWebサイトのHTMLを取得するサンプルコードです。
+
+## [`web_api_call`](src/samples/web_api_call/)
+
+`HttpClient`でWebAPIにアクセスするサンプルコードです。
+
+[Qiita API v2](https://qiita.com/api/v2/docs) の `https://qiita.com/api/v2/items` エンドポイントより最新の投稿記事を取得します。  
+WebAPIから取得したJSONは `Jackson` で処理します。
+
+実行結果：  
+<img src="https://user-images.githubusercontent.com/59589496/122574699-e3274d00-d08a-11eb-9d14-261bfacd0c9f.png" width="50%">
