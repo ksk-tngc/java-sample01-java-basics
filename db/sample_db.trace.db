@@ -1,0 +1,161 @@
+2021-06-21 17:13:49 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: SQLステートメントに文法エラーがあります "CREATE TABLE EMPLOYEES  
+    EMPLOYEE_ID[*]   INT,        
+    FIRST_NAME    VARCHAR,     
+    LAST_NAME     VARCHAR,     
+    SALARY        INT,      
+    HIRE_DATE     DATE       
+ "
+Syntax error in SQL statement "CREATE TABLE EMPLOYEES  
+    EMPLOYEE_ID[*]   INT,        
+    FIRST_NAME    VARCHAR,     
+    LAST_NAME     VARCHAR,     
+    SALARY        INT,      
+    HIRE_DATE     DATE       
+ "; SQL statement:
+CREATE TABLE EMPLOYEES  
+    EMPLOYEE_ID   INT, -- 社員ID
+    FIRST_NAME    VARCHAR, -- 名
+    LAST_NAME     VARCHAR, -- 姓
+    SALARY        INT, -- 給料
+    HIRE_DATE     DATE -- 雇用日
+  [42000-200]
+2021-06-21 17:14:17 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: SQLステートメントに文法エラーがあります "CREATE TABLE EMPLOYEES  
+    EMPLOYEE_ID[*]   INT,        
+    FIRST_NAME    VARCHAR,     
+    LAST_NAME     VARCHAR,     
+    SALARY        INT,      
+    HIRE_DATE     DATE       
+ "
+Syntax error in SQL statement "CREATE TABLE EMPLOYEES  
+    EMPLOYEE_ID[*]   INT,        
+    FIRST_NAME    VARCHAR,     
+    LAST_NAME     VARCHAR,     
+    SALARY        INT,      
+    HIRE_DATE     DATE       
+ "; SQL statement:
+CREATE TABLE EMPLOYEES  
+    EMPLOYEE_ID   INT, -- 社員ID
+    FIRST_NAME    VARCHAR, -- 名
+    LAST_NAME     VARCHAR, -- 姓
+    SALARY        INT, -- 給料
+    HIRE_DATE     DATE -- 雇用日
+  [42000-200]
+2021-06-21 17:56:31 database: flush
+org.h2.message.DbException: 一般エラー: "java.lang.IllegalStateException: The file is locked: nio:/Users/ksk.tngc/Workspace/Eclipse-Workspace/my-java-project/db/sample_db.mv.db [1.4.200/7]"
+General error: "java.lang.IllegalStateException: The file is locked: nio:/Users/ksk.tngc/Workspace/Eclipse-Workspace/my-java-project/db/sample_db.mv.db [1.4.200/7]" [50000-200]
+	at org.h2.message.DbException.get(DbException.java:194)
+	at org.h2.message.DbException.convert(DbException.java:347)
+	at org.h2.mvstore.db.MVTableEngine$1.uncaughtException(MVTableEngine.java:93)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:2877)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:481)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:402)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:3579)
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:170)
+	at org.h2.mvstore.db.MVTableEngine.init(MVTableEngine.java:103)
+	at org.h2.engine.Database.getPageStore(Database.java:2659)
+	at org.h2.engine.Database.open(Database.java:675)
+	at org.h2.engine.Database.openDatabase(Database.java:307)
+	at org.h2.engine.Database.<init>(Database.java:301)
+	at org.h2.engine.Engine.openSession(Engine.java:74)
+	at org.h2.engine.Engine.openSession(Engine.java:192)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:171)
+	at org.h2.engine.Engine.createSession(Engine.java:166)
+	at org.h2.engine.Engine.createSession(Engine.java:29)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:340)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:173)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:152)
+	at org.h2.Driver.connect(Driver.java:69)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:251)
+	at samples.jdbc.dao.EmployeesDAO.createEmployee(EmployeesDAO.java:45)
+	at samples.jdbc.Main.main(Main.java:18)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: 一般エラー: "java.lang.IllegalStateException: The file is locked: nio:/Users/ksk.tngc/Workspace/Eclipse-Workspace/my-java-project/db/sample_db.mv.db [1.4.200/7]"
+General error: "java.lang.IllegalStateException: The file is locked: nio:/Users/ksk.tngc/Workspace/Eclipse-Workspace/my-java-project/db/sample_db.mv.db [1.4.200/7]" [50000-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:505)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	... 26 more
+Caused by: java.lang.IllegalStateException: The file is locked: nio:/Users/ksk.tngc/Workspace/Eclipse-Workspace/my-java-project/db/sample_db.mv.db [1.4.200/7]
+	at org.h2.mvstore.DataUtils.newIllegalStateException(DataUtils.java:950)
+	at org.h2.mvstore.FileStore.open(FileStore.java:172)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:381)
+	... 20 more
+2021-06-21 18:04:53 database: flush
+org.h2.message.DbException: 一般エラー: "java.lang.IllegalStateException: The file is locked: nio:/Users/ksk.tngc/Workspace/Eclipse-Workspace/my-java-project/db/sample_db.mv.db [1.4.200/7]"
+General error: "java.lang.IllegalStateException: The file is locked: nio:/Users/ksk.tngc/Workspace/Eclipse-Workspace/my-java-project/db/sample_db.mv.db [1.4.200/7]" [50000-200]
+	at org.h2.message.DbException.get(DbException.java:194)
+	at org.h2.message.DbException.convert(DbException.java:347)
+	at org.h2.mvstore.db.MVTableEngine$1.uncaughtException(MVTableEngine.java:93)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:2877)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:481)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:402)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:3579)
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:170)
+	at org.h2.mvstore.db.MVTableEngine.init(MVTableEngine.java:103)
+	at org.h2.engine.Database.getPageStore(Database.java:2659)
+	at org.h2.engine.Database.open(Database.java:675)
+	at org.h2.engine.Database.openDatabase(Database.java:307)
+	at org.h2.engine.Database.<init>(Database.java:301)
+	at org.h2.engine.Engine.openSession(Engine.java:74)
+	at org.h2.engine.Engine.openSession(Engine.java:192)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:171)
+	at org.h2.engine.Engine.createSession(Engine.java:166)
+	at org.h2.engine.Engine.createSession(Engine.java:29)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:340)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:173)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:152)
+	at org.h2.Driver.connect(Driver.java:69)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:251)
+	at samples.jdbc.dao.EmployeesDAO.createEmployee(EmployeesDAO.java:45)
+	at samples.jdbc.Main.main(Main.java:18)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: 一般エラー: "java.lang.IllegalStateException: The file is locked: nio:/Users/ksk.tngc/Workspace/Eclipse-Workspace/my-java-project/db/sample_db.mv.db [1.4.200/7]"
+General error: "java.lang.IllegalStateException: The file is locked: nio:/Users/ksk.tngc/Workspace/Eclipse-Workspace/my-java-project/db/sample_db.mv.db [1.4.200/7]" [50000-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:505)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	... 26 more
+Caused by: java.lang.IllegalStateException: The file is locked: nio:/Users/ksk.tngc/Workspace/Eclipse-Workspace/my-java-project/db/sample_db.mv.db [1.4.200/7]
+	at org.h2.mvstore.DataUtils.newIllegalStateException(DataUtils.java:950)
+	at org.h2.mvstore.FileStore.open(FileStore.java:172)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:381)
+	... 20 more
+2021-06-21 18:06:03 database: flush
+org.h2.message.DbException: 一般エラー: "java.lang.IllegalStateException: The file is locked: nio:/Users/ksk.tngc/Workspace/Eclipse-Workspace/my-java-project/db/sample_db.mv.db [1.4.200/7]"
+General error: "java.lang.IllegalStateException: The file is locked: nio:/Users/ksk.tngc/Workspace/Eclipse-Workspace/my-java-project/db/sample_db.mv.db [1.4.200/7]" [50000-200]
+	at org.h2.message.DbException.get(DbException.java:194)
+	at org.h2.message.DbException.convert(DbException.java:347)
+	at org.h2.mvstore.db.MVTableEngine$1.uncaughtException(MVTableEngine.java:93)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:2877)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:481)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:402)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:3579)
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:170)
+	at org.h2.mvstore.db.MVTableEngine.init(MVTableEngine.java:103)
+	at org.h2.engine.Database.getPageStore(Database.java:2659)
+	at org.h2.engine.Database.open(Database.java:675)
+	at org.h2.engine.Database.openDatabase(Database.java:307)
+	at org.h2.engine.Database.<init>(Database.java:301)
+	at org.h2.engine.Engine.openSession(Engine.java:74)
+	at org.h2.engine.Engine.openSession(Engine.java:192)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:171)
+	at org.h2.engine.Engine.createSession(Engine.java:166)
+	at org.h2.engine.Engine.createSession(Engine.java:29)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:340)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:173)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:152)
+	at org.h2.Driver.connect(Driver.java:69)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:251)
+	at samples.jdbc.dao.EmployeesDAO.createEmployee(EmployeesDAO.java:45)
+	at samples.jdbc.Main.main(Main.java:18)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: 一般エラー: "java.lang.IllegalStateException: The file is locked: nio:/Users/ksk.tngc/Workspace/Eclipse-Workspace/my-java-project/db/sample_db.mv.db [1.4.200/7]"
+General error: "java.lang.IllegalStateException: The file is locked: nio:/Users/ksk.tngc/Workspace/Eclipse-Workspace/my-java-project/db/sample_db.mv.db [1.4.200/7]" [50000-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:505)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	... 26 more
+Caused by: java.lang.IllegalStateException: The file is locked: nio:/Users/ksk.tngc/Workspace/Eclipse-Workspace/my-java-project/db/sample_db.mv.db [1.4.200/7]
+	at org.h2.mvstore.DataUtils.newIllegalStateException(DataUtils.java:950)
+	at org.h2.mvstore.FileStore.open(FileStore.java:172)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:381)
+	... 20 more

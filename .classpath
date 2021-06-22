@@ -29,5 +29,6 @@
 	<classpathentry kind="lib" path="lib/jackson/jackson-annotations-2.12.3.jar"/>
 	<classpathentry kind="lib" path="lib/jackson/jackson-core-2.12.3.jar"/>
 	<classpathentry kind="lib" path="lib/jackson/jackson-databind-2.12.3.jar"/>
+	<classpathentry kind="lib" path="lib/h2db/h2-1.4.200.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
