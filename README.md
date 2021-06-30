@@ -147,3 +147,18 @@ DBMSは H2 Database を使用します。
 
 実行結果：  
 <img src="https://user-images.githubusercontent.com/59589496/122884171-d51e4880-d378-11eb-9aae-ddb3770d41fc.png" width="90%">
+
+## [`assertion`](src/samples/assertion/)
+
+アサーション (`assert`文) のサンプルコードです。
+
+プログラムに`assert`文を仕込むことで、プログラムやシステムが異常な状態で稼働し続ける事を防ぎます。  
+(`assert`文の評価が false の場合、`AssertionError`が発生し JVM は強制終了する)
+
+アサーションを有効にするには、java コマンドに `-ea` オプションを付けます。
+
+```
+$ java -ea Main
+```
+
+
