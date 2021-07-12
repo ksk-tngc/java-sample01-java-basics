@@ -161,4 +161,16 @@ DBMSは H2 Database を使用します。
 $ java -ea Main
 ```
 
+## [`thread`](src/samples/thread/)
 
+スレッドのサンプルコードです。
+
+色々な実装方法を試します：
+- [Sample01](src/samples/thread/Sample01.java)：`Thread`クラスを継承する方法
+- [Sample02](src/samples/thread/Sample02.java)：`Thread`クラスを継承する方法（匿名クラスを使用）
+- [Sample03](src/samples/thread/Sample03.java)：`Runnable`インターフェースの実装クラスを`Thread`に渡す方法
+- [Sample04](src/samples/thread/Sample04.java)：`Runnable`インターフェースの実装をラムダ式で行う方法
+- [Sample05](src/samples/thread/Sample05.java)：`Runnable`インターフェースの実装をメソッド参照で行う方法
+
+実行結果：  
+<img src="https://user-images.githubusercontent.com/59589496/125249335-18445980-e330-11eb-8423-5ddffeef0f54.png" width="90%">
